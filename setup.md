@@ -1,4 +1,4 @@
-# auto-screenshot — setup
+# claude-auto-screenshot — setup
 
 **Requires:** Windows host, PowerShell 5+, WSL access to `powershell.exe`; Pester v5 for tests (`Install-Module Pester -Force -SkipPublisherCheck -Scope CurrentUser`)
 
@@ -32,7 +32,7 @@ if [ -L ~/.claude/skills/screenshot ]; then
 elif [ -d ~/.claude/skills/screenshot ]; then
     mv ~/.claude/skills/screenshot ~/.claude/skills/screenshot.bak
 fi
-# Replace <REPO_PATH> with this machine's clone path, e.g. /mnt/d/labs/auto-screenshot
+# Replace <REPO_PATH> with this machine's clone path, e.g. /mnt/d/labs/claude-auto-screenshot
 ln -s <REPO_PATH> ~/.claude/skills/screenshot  # <-- edit per machine: repo clone path
 ```
 

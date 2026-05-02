@@ -22,7 +22,7 @@
   - `docs/superpowers/specs/2026-04-16-smart-screenshots-design.md` — the v1 design (`window`, `list-windows`, etc.)
   - `docs/superpowers/specs/2026-04-17-screenshot-v2-design.md` — the v2 design (correctness, shutter, overlay, 24 bug fixes)
   - `changelogs/CHANGELOG-2026-04-17-screenshot-v2.md` — the deployment record for what's now on `main`
-- **Repo conventions:** read `CLAUDE.md` first. Every change bakes on the live machine for a day or two before being contributed to the repo via a changelog under `changelogs/`. Machine-specific values (`YOUR_WSL_USER`, `YOUR_WIN_USER`, repo clone path) are marked with `# <-- edit per machine: <what>` and must not be committed to `config/`.
+- **Repo conventions:** read `CLAUDE.md` first. Every change bakes on the live machine for a day or two before being contributed to the repo via a changelog under `changelogs/`. Machine-specific values (`LINUX_USER`, `WINDOWS_USER`, repo clone path) are marked with `# <-- edit per machine: <what>` and must not be committed to `config/`.
 
 ## What v2 shipped
 

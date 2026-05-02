@@ -1,0 +1,6 @@
+# Per-machine Claude Code state — never commit
+.claude/
+
+# Pester / PowerShell test artifacts
+*.xml
+TestResults/
